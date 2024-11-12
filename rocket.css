@@ -11,7 +11,7 @@ body, html {
 .content {
     width: 70%; /* Text occupies 70% of the screen */
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     line-height: 1.6;
 }
 
