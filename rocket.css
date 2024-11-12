@@ -86,7 +86,6 @@ body, html {
     position: fixed;
     top: 20px;
     right: 20px;
-    z-index: 1000; /* Ensure it stays on top */
 }
 .home-button a {
     text-decoration: none;
