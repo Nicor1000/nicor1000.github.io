@@ -10,9 +10,12 @@ body, html {
 
 .content {
     width: 70%; /* Text occupies 70% of the screen */
-    margin: 0 auto;
+    margin: 0 auto; /* Center content horizontally */
     text-align: justify; /* Justify the text */
     line-height: 1.6; /* Line spacing for better readability */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align all child elements to the center */
 }
 
 /* Sections */
@@ -22,7 +25,6 @@ body, html {
     align-items: center;
     justify-content: center;
     padding: 40px;
-    text-align: center;
 }
 
 /* Section One */
@@ -34,11 +36,16 @@ body, html {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #FA824C; /* Accent Color */
+    text-align: center; /* Center the title */
 }
 .section-one p {
     font-size: 1.2em;
-    line-height: 1.6;
     margin-bottom: 30px;
+}
+.video-container {
+    display: flex;
+    justify-content: center; /* Center the video */
+    width: 100%;
 }
 .video-container video {
     width: auto;
@@ -55,11 +62,15 @@ body, html {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #FA824C; /* Accent Color */
+    text-align: center; /* Center the title */
 }
 .section-two p {
     font-size: 1.2em;
-    line-height: 1.6;
     margin-bottom: 30px;
+}
+.photo {
+    display: flex;
+    justify-content: center; /* Center the photo */
 }
 .photo img {
     width: 90%; /* Wider photo */
@@ -68,7 +79,7 @@ body, html {
 }
 .bottom-photos {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the two photos */
     gap: 20px;
 }
 .bottom-photos img {
@@ -79,7 +90,7 @@ body, html {
 
 /* Back to Home Button */
 .home-button {
-    text-align: center;
+    text-align: center; /* Center the button */
     margin: 40px 0; /* Space at the bottom */
 }
 .home-button a {
