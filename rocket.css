@@ -4,8 +4,8 @@ body, html {
     padding: 0;
     font-family: 'Playfair Display', sans-serif;
     scroll-behavior: smooth;
-    background-color: #090909; /* Darker background */
-    color: #ffffff; /* White text */
+    background-color: #0b0b0b; /* Pure black background */
+    color: #ffffff; /* Pure white text */
 }
 
 .content {
@@ -27,7 +27,7 @@ body, html {
 
 /* Section One */
 .section-one {
-    background-color: #090909; /* Darker black background */
+    background-color: #0b0b0b; /* Black */
     color: #ffffff; /* White text */
 }
 .section-one h1 {
@@ -48,7 +48,7 @@ body, html {
 
 /* Section Two */
 .section-two {
-    background-color: #111111; /* Slightly lighter black */
+    background-color: #161616; /* Dark grey for contrast */
     color: #ffffff; /* White text */
 }
 .section-two h1 {
@@ -83,9 +83,8 @@ body, html {
 
 /* Back to Home Button */
 .home-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
+    text-align: center;
+    margin: 40px 0; /* Add spacing at the bottom */
 }
 .home-button a {
     text-decoration: none;
