@@ -4,11 +4,12 @@ body, html {
     padding: 0;
     font-family: 'Playfair Display', sans-serif;
     scroll-behavior: smooth;
-    background-color: white;
+    background-color: #090909; /* Darker background */
+    color: #ffffff; /* White text */
 }
 
 .content {
-    width: 70%;
+    width: 70%; /* Text occupies 70% of the screen */
     margin: 0 auto;
     text-align: center;
     line-height: 1.6;
@@ -24,10 +25,10 @@ body, html {
     text-align: center;
 }
 
-/* Section One: White Background */
+/* Section One */
 .section-one {
-    background-color: white;
-    color: #090909; /* Dark Text */
+    background-color: #090909; /* Darker black background */
+    color: #ffffff; /* White text */
 }
 .section-one h1 {
     font-size: 2.5em;
@@ -45,10 +46,10 @@ body, html {
     border-radius: 10px; /* Rounded corners */
 }
 
-/* Section Two: Light Grey Background */
+/* Section Two */
 .section-two {
-    background-color: #f7f7f7; /* Light Grey */
-    color: #090909; /* Dark Text */
+    background-color: #111111; /* Slightly lighter black */
+    color: #ffffff; /* White text */
 }
 .section-two h1 {
     font-size: 2.5em;
@@ -60,7 +61,7 @@ body, html {
     line-height: 1.6;
     margin-bottom: 30px;
 }
-.photo img{
+.photo img {
     width: 90%;
     border-radius: 10px; /* Rounded corners */
     margin-bottom: 20px;
@@ -82,15 +83,17 @@ body, html {
 
 /* Back to Home Button */
 .home-button {
-    text-align: center;
-    margin: 20px 0;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it stays on top */
 }
 .home-button a {
     text-decoration: none;
     color: white;
     font-size: 1em;
     padding: 10px 20px;
-    background-color: #FA824C;
+    background-color: #FA824C; /* Accent Color */
     border-radius: 4px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
