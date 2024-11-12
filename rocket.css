@@ -93,7 +93,7 @@ body, html {
 
 /* Section Two: Light Background */
 .section-two {
-    background-color: #FAF3E0; /* Light Beige */
+    background-color: #f7f7f7; /* Light Beige */
     color: #808080; /* Dark Text */
 }
 .section-two h1 {
@@ -110,8 +110,6 @@ body, html {
 .bottom-photos img {
     width: 80%;
     max-width: 500px;
-    border: 3px solid #FA824C;
-    border-radius: 10px;
     margin-bottom: 20px;
 }
 .bottom-photos {
