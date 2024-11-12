@@ -4,6 +4,7 @@ body, html {
     padding: 0;
     font-family: 'Playfair Display', sans-serif;
     scroll-behavior: smooth;
+    background-color: white;
 }
 
 /* Sections */
@@ -16,9 +17,9 @@ body, html {
     text-align: center;
 }
 
-/* Section One: Light Background */
+/* Section One: White Background */
 .section-one {
-    background-color: #FFFBBD; /* Light Yellow */
+    background-color: white;
     color: #090909; /* Dark Text */
 }
 .section-one h1 {
@@ -31,6 +32,64 @@ body, html {
     line-height: 1.6;
     margin-bottom: 30px;
 }
+.video-container video {
+    width: auto;
+    height: 80vh; /* Fit vertical video */
+    border: 3px solid #FA824C;
+    border-radius: 10px;
+}
+
+/* Section Two: Light Grey Background */
+.section-two {
+    background-color: #f7f7f7; /* Light Grey */
+    color: #090909; /* Dark Text */
+}
+.section-two h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #FA824C; /* Accent Color */
+}
+.section-two p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.photo img,
+.bottom-photos img {
+    width: 80%;
+    max-width: 500px;
+    border: 3px solid #FA824C;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.bottom-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.bottom-photos img {
+    width: 45%;
+}
+
+/* Back to Home Button */
+.home-button {
+    text-align: center;
+    margin: 20px 0;
+}
+.home-button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #FA824C;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.home-button a:hover {
+    background-color: #e66b2f;
+    transform: scale(1.05);
+}
+
 .video-container video {
     width: 80%;
     max-width: 800px;
