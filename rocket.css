@@ -35,6 +35,7 @@ body, html {
 .video-container video {
     width: auto;
     height: 80vh; /* Fit vertical video */
+    border-radius: 10px; /* Rounded corners */
 }
 
 /* Section Two: Light Grey Background */
@@ -56,6 +57,7 @@ body, html {
 .bottom-photos img {
     width: 80%;
     max-width: 500px;
+    border-radius: 10px; /* Rounded corners */
     margin-bottom: 20px;
 }
 .bottom-photos {
@@ -84,39 +86,4 @@ body, html {
 .home-button a:hover {
     background-color: #e66b2f;
     transform: scale(1.05);
-}
-
-.video-container video {
-    width: 80%;
-    max-width: 800px;
-}
-
-/* Section Two: Light Background */
-.section-two {
-    background-color: #f7f7f7; /* Light Beige */
-    color: #808080; /* Dark Text */
-}
-.section-two h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #FA824C; /* Accent Color */
-}
-.section-two p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-.photo img,
-.bottom-photos img {
-    width: 80%;
-    max-width: 500px;
-    margin-bottom: 20px;
-}
-.bottom-photos {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.bottom-photos img {
-    width: 45%;
 }
